@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.shannon.shell.autoconfigure.StarterAutoConfigure,\
+  io.shannon.shell.autoconfigure.NLPShellAutoConfigure
