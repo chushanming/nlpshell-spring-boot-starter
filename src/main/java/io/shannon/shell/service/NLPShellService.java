@@ -29,7 +29,6 @@ public class NLPShellService {
 
     public NLPResult nlpProcess(String input) {
 
-        //String url = "http://192.168.1.151:9000/?properties=%7B%22annotators%22:%22tokenize,ssplit,pos%22,%22outputFormat%22:%22json%22%7D";
         String targetServer = "http://" + host + ":" + port + "/?properties=";
         String parameters = "{\"annotators\":\"tokenize,ssplit,truecase,pos,lemma,ner\",\"outputFormat\":\"json\"}";
 
