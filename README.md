@@ -15,7 +15,7 @@ NLP-Shell是一个更易于调用现有的自然语言处理服务的接口组�
       
 1. 下载完整源代码包，解压到任意本地目录，以Ubuntu为例，在源代码包的 `pom.xml` 所在目录下执行
 
-    >. `mvn clean install`
+    > `mvn clean install`
     
     显示`BUILD SUCCESS`即为编译打包成功并安装nlp-shell到本地maven库中。
 
