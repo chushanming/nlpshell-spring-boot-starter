@@ -44,7 +44,6 @@ public class NLPShellService {
             HttpResponse response = httpClient.execute(httpPost);
 
             String content = EntityUtils.toString(response.getEntity());
-            //System.out.println(content);
             Response nlpResponse = JSONArray.parseObject(content, Response.class);
             System.out.println(nlpResponse);
 
@@ -57,7 +56,6 @@ public class NLPShellService {
 
     private NLPResult parseResponse(Response response) {
 
-        //System.out.println(response);
         ArrayList<String> nnList = new ArrayList<>();
         ArrayList<String> nerList = new ArrayList<>();
 
